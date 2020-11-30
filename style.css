@@ -1,0 +1,269 @@
+.background{
+    background-image: url("resources/b2.png");
+    background-size: 100% 100%;
+    height: 95%;
+    width: 100%;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.icon {
+    margin-left: 2vw;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    justify-self: center;
+}
+
+.selected-icon {
+    margin-left: 2vw;
+    background-color: rgb(3, 53, 252, 0.2);
+    justify-self: center;
+}
+
+.gta-div, .nfs-div , .aoe-div, .zuma-div, .fifa-div{
+    font-size: 1.6vw;
+    width: 80%;
+    height: 20rem;
+    color: black;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: .1rem;
+    -webkit-text-stroke-color: black;
+    font-family: 'Squada One', cursive;
+}
+.gta-div{
+    margin-top: 7vw;
+    margin-left: 3vw;
+}
+.nfs-div, .aoe-div, .zuma-div, .fifa-div{
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+.nfs-div, .aoe-div {
+    font-size: 1.7vw;
+}
+
+
+.gta-window, .gta-info, .gta-video, .nfs-window, .nfs-info, .aoe-window, .aoe-info, .zuma-window, .zuma-info, .fifa-window, .fifa-info{
+    border: .2vw solid blue;
+    border-radius: .3vw;
+    width: 65%;
+    height: 80%;
+    justify-self: center;
+    margin-top: 5%;
+    margin-left: 6%;
+    z-index: 2;
+}
+.gta-window {
+    background-image: url('resources/gtaStart.jpeg');
+    background-size: 100% 100%;
+}
+.gta-info {
+    background-image: url('resources/gtainfo.jpg');
+    background-size: 100% 100%;
+}
+.nfs-window {
+    background-image: url('resources/nfsstart.jpg');
+    background-size: 100% 100%;
+}
+.nfs-info{
+    background-image: url('resources/nfsinfo.jpg');
+    background-size: 100% 100%;
+}
+.aoe-window {
+    background-image: url('resources/aoestart.jpeg'); 
+    background-size: 100% 100%;
+}
+.aoe-info{
+    background-image: url('resources/aoeinfo.jpg');
+    background-size: 100% 100%;
+}
+.zuma-window {
+    background-image: url('resources/zumastart.jpg');
+    background-size: 100% 100%;
+}
+.zuma-info{
+    background-image: url('resources/zumainfo.jpg'); 
+    background-size: 100% 100%;
+}
+.fifa-window {
+    background-image: url('resources/fifastart.jpg');
+    background-size: 100% 100%;
+}
+.fifa-info{
+    background-image: url('resources/fifainfo.jpg');
+    background-size: 100% 100%;
+}
+
+h2, .video-Link {
+    font-size: 2rem;
+    color: black;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Squada One', cursive;
+}
+
+.window-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: blue;
+    width: 100%;
+    z-index: 2;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-self: center;
+    height: 100%;
+}
+
+.icons-grid {
+    display: grid;
+    grid-template-rows: 10%, 10%, 10%, 10%, 10%;
+    height: 90%;
+    margin-bottom: 10%;
+}
+
+iframe {
+    width: 100%;
+    height: 95%;
+    display: block;
+    border-style: none;   
+}
+
+.video-text-on-hover:hover{
+    cursor: -webkit-grab; 
+    cursor: grab;
+    width: 40%;
+    background-color: black;
+}
+
+.start {
+    background-image: url("resources/startbutton.jpg");
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.bar {
+    background-image: url("resources/tabbar.png");
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.time-div {
+    background-image: url("resources/timetab.png");
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.tab {
+    height: 5%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+.start {
+    position: relative;
+    z-index: 2;
+}
+.row {
+    margin-right: 0;
+    z-index: 2;
+}
+
+.time {
+    padding-left: 45%;
+    padding-top: 8%;
+    font-size: 1vw;
+    color: white;
+    z-index: 2;
+}
+
+.windows-gif {
+    background-image: url("resources/windowsbootup.gif");
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.shutdown-gif {
+    background-image: url("resources/windowsshutdown.gif");
+    background-size: 100% 100%;
+}
+
+
+.nfs-bar-icon, .gta-bar-icon, .aoe-bar-icon, .zuma-bar-icon, .fifa-bar-icon {
+    float: left;
+    height: 90%;
+    width: 20%;
+}
+.nfs-bar-text, .gta-bar-text, .aoe-bar-text, .zuma-bar-text, .fifa-bar-text {
+    color: white;
+    font-size: 1vw;    
+    margin: 0;
+    padding-top: .6vw;
+    float: left;
+    margin-left: .8vw;
+}
+.nfs-bar-div, .gta-bar-div, .aoe-bar-div, .zuma-bar-div, .fifa-bar-div {
+    height: 90%;
+    width: 15%;
+    background-color: royalblue;
+    border-radius: .5vw;
+    margin-top: .2vw;
+}
+
+.menu-div {
+    position: relative;
+    bottom: 50%;
+    width: 22%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
+.upper-menu {
+    background-image: url("resources/startmenu.png");
+    background-size: 100% 100%;
+    float: left;
+    width: 100%;
+    height: 80%;
+    background-repeat: no-repeat;
+}
+.menu-bar {
+    margin: 0;
+    float: left;
+    clear: left;
+    width: 100%;
+    height: 10%;
+}
+.start-menu-left {
+    margin: 0;
+    background-image: url("resources/startmenuleft.png");
+    background-size: 100% 100%;
+    float: left;
+    width: 80%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.start-menu-right {
+    margin: 0;
+    background-image: url("resources/startmenuright.png");
+    background-size: 100% 100%;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.black-screen {
+    background-color: black;
+}
